@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  color: #ffffff;
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/header_background.jpeg) no-repeat;
+  background-size: 100%;
+}
+.header__jumbotron {
+  width: 50%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+.header__buttons {
+  margin-top: 5rem;
+}
+.header__button--col {
+  border: 1px solid white;
+  text-align: center;
+  text-align: center;
+}
+
+.courses {
+  margin-top: 2rem;
+}
+.card {
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.card h5 {
+  margin: 1rem 0;
+}
+.card a {
+  margin: 1rem 0;
+}
+.card img {
+  height: 16rem;
+}
+
+footer .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+footer .row h5 {
+  text-align: center;
+}
+footer .row li {
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+}
+footer h6 {
+  text-align: center;
+}
